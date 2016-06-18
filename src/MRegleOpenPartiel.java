@@ -5,7 +5,7 @@ class MRegleOpenPartiel extends MRegles
 {
 
     @Override
-    protected void evaluate(MCase caseJouee, MPlateau plateau) {
+    void evaluate(MCase caseJouee, MPlateau plateau) {
 
     }
 }

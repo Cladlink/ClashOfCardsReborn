@@ -1,25 +1,24 @@
+import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 
-class CButtonAccueil implements MouseListener
+class CButtonAccueil extends MouseAdapter
 {
 
 
      @Override
     public void mouseClicked(MouseEvent e)
     {
+        // todo * une fois la partie lancée, il faudra faire choisir aux joueurs leurs cartes pour la partie.
+        // todo * ce qui implique un acces bdd
     }
     @Override
     public void mouseEntered(MouseEvent e)
     {
+
     }
     @Override
     public void mouseExited(MouseEvent e)
     {
-    }
-    @Override
-    public void mousePressed(MouseEvent e) {}
 
-    @Override
-    public void mouseReleased(MouseEvent e) {}
+    }
 }

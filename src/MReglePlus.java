@@ -1,11 +1,12 @@
 /**
  Created by cladlink on 15/06/16.
  */
-class MReglePlus extends MRegles
+class MReglePlus extends MRegleCombo
 {
 
     @Override
-    protected void evaluate(MCase caseJouee, MPlateau plateau) {
+    void evaluate(MCase caseJouee, MPlateau plateau)
+    {
 
     }
 }

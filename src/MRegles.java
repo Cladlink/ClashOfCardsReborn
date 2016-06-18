@@ -5,5 +5,5 @@ abstract class MRegles
 {
     protected boolean estChoisi;
 
-    protected abstract void evaluate(MCase caseJouee, MPlateau plateau);
+    abstract void evaluate(MCase caseJouee, MPlateau plateau);
 }

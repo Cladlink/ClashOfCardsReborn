@@ -10,7 +10,7 @@ public class TestMPlateau
     public void testCarteJouee()
     {
         MPlateau plateau = new MPlateau();
-        MCarte carte = new MCarte(2, 5, 6, 1, "toto", "titi");
+        MCarte carte = new MCarte(2, 5, 6, 1, "toto", "titi", true);
         plateau.cartePosee(carte, 1);
         Assert.assertEquals(carte, plateau.getBoard()[1].getCarte());
     }
